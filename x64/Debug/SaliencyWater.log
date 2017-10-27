@@ -1,0 +1,76 @@
+﻿生成启动时间为 2017/10/27 9:46:09。
+     1>项目“D:\MyWork\Paper\Salient\Code\saliencyfilters-master\saliencyfilters-Water\DemoCode\VC2012\SaliencyWater.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I.\opencv2.4.9\build\include /I.\opencv2.4.9\build\include\opencv /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D DEBUG_IMG_SAVE /D VL_BUILD_DLL /D OPENCV_SHOW /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt imgLib.cpp Saliency.cpp test.cpp
+         imgLib.cpp
+     1>imgLib.cpp(26): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>imgLib.cpp(27): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>imgLib.cpp(31): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>imgLib.cpp(32): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>imgLib.cpp(66): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>imgLib.cpp(67): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>imgLib.cpp(68): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>imgLib.cpp(69): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>imgLib.cpp(70): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>imgLib.cpp(71): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>imgLib.cpp(72): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>imgLib.cpp(73): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>imgLib.cpp(75): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+         Saliency.cpp
+     1>Saliency.cpp(32): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Saliency.cpp(53): warning C4244: “=”: 从“float”转换到“Ipp8u”，可能丢失数据
+     1>Saliency.cpp(80): warning C4244: “参数”: 从“Ipp16u”转换到“Ipp8u”，可能丢失数据
+     1>Saliency.cpp(83): warning C4244: “参数”: 从“Ipp16u”转换到“Ipp8u”，可能丢失数据
+     1>Saliency.cpp(118): warning C4101: “wFrame”: 未引用的局部变量
+     1>Saliency.cpp(287): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>Saliency.cpp(289): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>Saliency.cpp(311): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Saliency.cpp(330): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Saliency.cpp(349): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Saliency.cpp(368): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Saliency.cpp(429): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Saliency.cpp(447): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Saliency.cpp(458): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Saliency.cpp(476): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Saliency.cpp(487): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Saliency.cpp(505): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Saliency.cpp(516): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Saliency.cpp(534): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Saliency.cpp(599): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>Saliency.cpp(600): warning C4244: “=”: 从“double”转换到“uchar”，可能丢失数据
+     1>Saliency.cpp(601): warning C4244: “=”: 从“double”转换到“uchar”，可能丢失数据
+     1>Saliency.cpp(602): warning C4244: “=”: 从“double”转换到“uchar”，可能丢失数据
+     1>Saliency.cpp(626): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>Saliency.cpp(700): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>Saliency.cpp(714): warning C4305: “初始化”: 从“double”到“float”截断
+     1>Saliency.cpp(729): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>Saliency.cpp(730): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>Saliency.cpp(766): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+         test.cpp
+     1>test.cpp(32): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>test.cpp(47): warning C4244: “+=”: 从“int64”转换到“int”，可能丢失数据
+     1>test.cpp(85): warning C4244: “=”: 从“intptr_t”转换到“long”，可能丢失数据
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MyWork\Paper\Salient\Code\saliencyfilters-master\saliencyfilters-Water\DemoCode\VC2012\x64\Debug\SaliencyWater.exe" /INCREMENTAL /NOLOGO /LIBPATH:.\opencv2.4.9\build\lib\Debug opencv_core249d.lib opencv_imgproc249d.lib opencv_highgui249d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\MyWork\Paper\Salient\Code\saliencyfilters-master\saliencyfilters-Water\DemoCode\VC2012\x64\Debug\SaliencyWater.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\MyWork\Paper\Salient\Code\saliencyfilters-master\saliencyfilters-Water\DemoCode\VC2012\x64\Debug\SaliencyWater.lib" /MACHINE:X64 x64\Debug\imgLib.obj
+         x64\Debug\Saliency.obj
+         x64\Debug\test.obj
+     1>Saliency.obj : error LNK2019: 无法解析的外部符号 ippGetStatusString，该符号在函数 "int __cdecl morphSmooth(int,int,class cv::Mat_<float> &)" (?morphSmooth@@YAHHHAEAV?$Mat_@M@cv@@@Z) 中被引用
+     1>Saliency.obj : error LNK2019: 无法解析的外部符号 ippiMorphologyBorderGetSize_8u_C1R，该符号在函数 "int __cdecl morphSmooth(int,int,class cv::Mat_<float> &)" (?morphSmooth@@YAHHHAEAV?$Mat_@M@cv@@@Z) 中被引用
+     1>Saliency.obj : error LNK2019: 无法解析的外部符号 ippiMorphologyBorderInit_8u_C1R，该符号在函数 "int __cdecl morphSmooth(int,int,class cv::Mat_<float> &)" (?morphSmooth@@YAHHHAEAV?$Mat_@M@cv@@@Z) 中被引用
+     1>Saliency.obj : error LNK2019: 无法解析的外部符号 ippiDilateBorder_8u_C1R，该符号在函数 "int __cdecl morphSmooth(int,int,class cv::Mat_<float> &)" (?morphSmooth@@YAHHHAEAV?$Mat_@M@cv@@@Z) 中被引用
+     1>Saliency.obj : error LNK2019: 无法解析的外部符号 ippiErodeBorder_8u_C1R，该符号在函数 "int __cdecl morphSmooth(int,int,class cv::Mat_<float> &)" (?morphSmooth@@YAHHHAEAV?$Mat_@M@cv@@@Z) 中被引用
+     1>Saliency.obj : error LNK2019: 无法解析的外部符号 ippiMorphAdvGetSize_8u_C1R，该符号在函数 "int __cdecl morphSmooth(int,int,class cv::Mat_<float> &)" (?morphSmooth@@YAHHHAEAV?$Mat_@M@cv@@@Z) 中被引用
+     1>Saliency.obj : error LNK2019: 无法解析的外部符号 ippiMorphReconstructGetBufferSize，该符号在函数 "int __cdecl morphSmooth(int,int,class cv::Mat_<float> &)" (?morphSmooth@@YAHHHAEAV?$Mat_@M@cv@@@Z) 中被引用
+     1>Saliency.obj : error LNK2019: 无法解析的外部符号 ippiMorphReconstructDilate_8u_C1IR，该符号在函数 "int __cdecl morphSmooth(int,int,class cv::Mat_<float> &)" (?morphSmooth@@YAHHHAEAV?$Mat_@M@cv@@@Z) 中被引用
+     1>Saliency.obj : error LNK2019: 无法解析的外部符号 ippiMorphReconstructErode_8u_C1IR，该符号在函数 "int __cdecl morphSmooth(int,int,class cv::Mat_<float> &)" (?morphSmooth@@YAHHHAEAV?$Mat_@M@cv@@@Z) 中被引用
+     1>Saliency.obj : error LNK2019: 无法解析的外部符号 ippiMalloc_8u_C1，该符号在函数 "int __cdecl morphSmooth(int,int,class cv::Mat_<float> &)" (?morphSmooth@@YAHHHAEAV?$Mat_@M@cv@@@Z) 中被引用
+     1>Saliency.obj : error LNK2019: 无法解析的外部符号 ippiFree，该符号在函数 "int __cdecl morphSmooth(int,int,class cv::Mat_<float> &)" (?morphSmooth@@YAHHHAEAV?$Mat_@M@cv@@@Z) 中被引用
+     1>Saliency.obj : error LNK2019: 无法解析的外部符号 ippsMalloc_8u，该符号在函数 "int __cdecl morphSmooth(int,int,class cv::Mat_<float> &)" (?morphSmooth@@YAHHHAEAV?$Mat_@M@cv@@@Z) 中被引用
+     1>Saliency.obj : error LNK2019: 无法解析的外部符号 ippsFree，该符号在函数 "int __cdecl morphSmooth(int,int,class cv::Mat_<float> &)" (?morphSmooth@@YAHHHAEAV?$Mat_@M@cv@@@Z) 中被引用
+     1>D:\MyWork\Paper\Salient\Code\saliencyfilters-master\saliencyfilters-Water\DemoCode\VC2012\x64\Debug\SaliencyWater.exe : fatal error LNK1120: 13 个无法解析的外部命令
+     1>已完成生成项目“D:\MyWork\Paper\Salient\Code\saliencyfilters-master\saliencyfilters-Water\DemoCode\VC2012\SaliencyWater.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.00
